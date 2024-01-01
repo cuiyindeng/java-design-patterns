@@ -8,6 +8,7 @@ public class ConcreteFlyweight1 extends Flyweight{
 
     @Override
     public void operate() {
-
+        setIntrinsic("这是享元对象1");
+        System.out.println(getIntrinsic() + "在处理逻辑");
     }
 }
